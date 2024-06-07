@@ -1,5 +1,6 @@
 #!/bin/bash
 
-sudo apt -y install --no-install-recommends fzf
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
 
 pip install thefuck --user
